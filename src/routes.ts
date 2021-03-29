@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import Dapp from "./pages/Dapp";
+import DappBlack from "./pages/DappBlack";
 import Detail from "./pages/Detail";
 import ComingSoon1 from "./pages/ComingSoon1";
 import ComingSoon2 from "./pages/ComingSoon2";
@@ -22,6 +23,12 @@ const routes = [
     exact: true,
     title: "Dapp",
     component: Dapp
+  },
+  {
+    path: "/dapp-black",
+    exact: true,
+    title: "DappBlack",
+    component: DappBlack
   },
   {
     path: "/detail",

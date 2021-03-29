@@ -413,6 +413,42 @@ header.header {
     }
 }
 
+.dapp-black {
+    main {
+        .container {
+            background: #FFFFFF17;
+        }
+
+        .v-cash-section {
+            background-color: #000000;
+
+            .amount-input-box {
+                background: #FFFFFF33;
+            }
+        }
+
+        .wallet-section {
+            .wallet-card {
+                background-color: #000000;
+            }
+        }
+
+        .transform-section {
+            &.sell-v-cash-section {
+                background-color: #000000;
+            }
+
+            &.transform-v-cash-section {
+                background-color: #00000060;
+            }
+        }
+
+        .log-section {
+            background-color: #000000;
+        }
+    }
+}
+
 .detail {
     main {
         padding: 2rem 0;
