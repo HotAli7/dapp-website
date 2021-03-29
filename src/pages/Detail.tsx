@@ -1,10 +1,6 @@
 import React from "react";
 import { ProgressBar } from "react-bootstrap";
 import Logo from "../assets/img/logo.png";
-import BondImage1 from "../assets/img/bond1.png";
-import BondImage2 from "../assets/img/bond2.png";
-import VCashCoin from "../assets/img/v-cash-coin.png";
-import CoinIcon from "../assets/img/coin-icon.png";
 const Dapp: React.FC = () => {
     return (
         <div className="detail dapp">

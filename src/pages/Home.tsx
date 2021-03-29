@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import Logo from "../assets/img/logo.png";
 import ServiceImage1 from "../assets/img/service-image1.png";
